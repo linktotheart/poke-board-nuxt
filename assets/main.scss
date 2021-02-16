@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+$primary-font: 'Poppins', sans-serif !important;
+
+body {
+  background: #f1f1f2;
+  font-family: $primary-font;
+}
+.vs-button {
+  font-family: $primary-font;
+}
+.vs-navbar {
+  .vs-navbar__left h4 {
+    font-size: 1.05rem;
+    color: var(--vs-warn);
+    cursor: pointer;
+  }
+  .vs-navbar__item,
+  .vs-button {
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: $primary-font;
+  }
+}
+.vs-navbar-content.paddingScroll:not(.paddingScrollActive) {
+  padding: 15px 0;
+}
